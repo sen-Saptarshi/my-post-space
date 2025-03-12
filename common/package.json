@@ -1,0 +1,28 @@
+{
+  "name": "@saptarshisen/common",
+  "version": "1.0.6",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "saptarshisen",
+    "common",
+    "utils",
+    "typescript",
+    "nodejs",
+    "javascript",
+    "utilities",
+    "helpers",
+    "functions",
+    "types",
+    "validation",
+    "zod"
+  ],
+  "author": "Saptarshi Sen",
+  "license": "ISC",
+  "description": "A set of common utilities and helper functions for TypeScript and Node.js applications.",
+  "dependencies": {
+    "zod": "^3.24.2"
+  }
+}
