@@ -1,0 +1,6 @@
+{
+  "rewrites":  [
+    { "source": "/api/:path(.*)", "destination": "https://my-post-space.saptarshi.workers.dev/:path" },
+    {"source": "/(.*)", "destination": "/"}
+  ]
+}

@@ -8,6 +8,7 @@ import AllBlogsPage from "./pages/all-blogs-page.tsx";
 import BlogPage from "./pages/blog-page.tsx";
 import { Toaster } from "@/components/ui/sonner";
 import TestPage from "./pages/test-page.tsx";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
               <Route path="/test" element={<TestPage />} />
             </Routes>
             <Toaster closeButton />
+            <Analytics />
           </div>
         </BrowserRouter>
       </ThemeProvider>
